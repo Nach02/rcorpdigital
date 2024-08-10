@@ -1,0 +1,84 @@
+.paginado{    
+    position: relative;
+    top: -7rem;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 9px;
+    z-index: 100;
+}
+.page{
+    cursor: pointer;
+    display: contents;
+    
+  }
+.fondohome{
+    position: relative;
+    top:0rem;
+    height: 100%;
+    z-index: 0;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+
+.filtersForm{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.filter{
+    display: flex;
+    gap: 10px;
+}
+
+.tableContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tablescroll{
+    max-height: 90vh;
+    overflow-y: scroll;
+}

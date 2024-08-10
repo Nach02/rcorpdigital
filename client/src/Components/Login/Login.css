@@ -1,0 +1,28 @@
+
+.login{
+    display: flex;
+}
+.fondo{    
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    position: relative;
+    top: 18rem;
+    left: 430%;
+    z-index: 2;
+}
+.loginForm{
+    z-index: 2;
+    position: absolute;
+    top:18rem;
+    left:80%
+}
+.registerForm{
+    z-index: 2;
+    position: absolute;
+    top:18rem;
+    left:80%
+}
